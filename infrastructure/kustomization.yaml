@@ -4,3 +4,4 @@ resources:
   - sources
   - kong
   - prometheus
+  - grafana
