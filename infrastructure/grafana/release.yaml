@@ -17,9 +17,6 @@ spec:
     remediation:
       retries: 3
   values:
-    ingress:
-      enabled: true
-      hosts: []
     datasources:
       datasources.yaml:
         apiVersion: 1
