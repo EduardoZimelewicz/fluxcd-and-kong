@@ -28,7 +28,7 @@ spec:
           isDefault: true
     dashboards:
       default:
-        kong-stats:
+        kong:
           gnetId: 7424
           revision: 7
           datasource: Prometheus
