@@ -9,7 +9,7 @@ spec:
   - http:
       paths:
       - path: /echo
-        pathType: ImplementationSpecific
+        pathType: Exact
         backend:
           service:
             name: echoserver
