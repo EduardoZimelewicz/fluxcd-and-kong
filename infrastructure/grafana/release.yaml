@@ -17,8 +17,9 @@ spec:
     remediation:
       retries: 3
   values:
-    service:
-      type: LoadBalancer
+    ingress:
+      enabled: true
+      hosts: []
     datasources:
       datasources.yaml:
         apiVersion: 1
