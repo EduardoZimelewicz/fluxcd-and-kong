@@ -12,6 +12,6 @@ spec:
         pathType: ImplementationSpecific
         backend:
           service:
-            name: echoserver.echoserver
+            name: echoserver.echoserver.svc.cluster.local
             port:
               number: 80
