@@ -4,3 +4,4 @@ namespace: kong
 resources:
   - namespace.yaml
   - release.yaml
+  - prometheus.yaml
