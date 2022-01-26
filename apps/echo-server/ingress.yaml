@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: echoserver
-  namespace: kong
+  namespace: echoserver
 spec:
   ingressClassName: kong
   rules:
@@ -12,6 +12,6 @@ spec:
         pathType: ImplementationSpecific
         backend:
           service:
-            name: echoserver.echoserver.svc.cluster.local
+            name: echoserver
             port:
               number: 80
