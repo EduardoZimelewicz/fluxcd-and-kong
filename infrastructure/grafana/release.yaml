@@ -30,6 +30,6 @@ spec:
       default:
         kong:
           gnetId: 7424
-          revision: 7
+          revision: 6
           datasource: Prometheus
 
